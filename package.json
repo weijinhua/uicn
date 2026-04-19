@@ -1,0 +1,13 @@
+{
+  "name": "charts-generator",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.6.1",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @charts-generator/web --filter @charts-generator/api dev",
+    "build": "pnpm --filter @charts-generator/ui build && pnpm --filter @charts-generator/web build && pnpm --filter @charts-generator/api build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint"
+  }
+}
