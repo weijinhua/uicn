@@ -1,0 +1,13 @@
+:root {
+  --cg-color-bg: #f7f8fb;
+  --cg-color-surface: #ffffff;
+  --cg-color-border: #d8deea;
+  --cg-color-primary: #2b4eff;
+  --cg-color-primary-text: #ffffff;
+  --cg-color-text: #1d2433;
+  --cg-space-2: 8px;
+  --cg-space-3: 12px;
+  --cg-space-4: 16px;
+  --cg-space-6: 24px;
+  --cg-radius-md: 10px;
+}
